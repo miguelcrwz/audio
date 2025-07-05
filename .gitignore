@@ -1,0 +1,12 @@
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# the pdf you feed the script (file.pdf) stays local
+*.pdf
+
+# editors
+.idea/
+.vscode/
