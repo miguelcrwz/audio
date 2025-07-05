@@ -6,3 +6,7 @@ with open('file.pdf', 'rb') as path:
     for page_num in range(len(pdfReader.pages)):
         page = pdfReader.pages[page_num]
         text = page.extract_text()
+
+        if text:
+            print(f"\nREADING PAGE {page_num + 1}:\n")
+            print(text)
