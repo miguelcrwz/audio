@@ -15,3 +15,5 @@ with open('file.pdf', 'rb') as path:
             print(text)
             speak.say(text)
             speak.runAndWait()
+
+speak.stop()
